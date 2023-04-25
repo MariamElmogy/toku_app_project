@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: ThemeData(),{
       routes: {
         HomeView.id: (context) => const HomeView(),
         NumbersView.id: (context) => const NumbersView(),
@@ -25,7 +24,6 @@ class MyApp extends StatelessWidget {
         FamilyView.id: (context) => const FamilyView(),
         PhrasesView.id: (context) => const PhrasesView(),
       },
-      // home: HomeView(),
       initialRoute: HomeView.id,
     );
   }
